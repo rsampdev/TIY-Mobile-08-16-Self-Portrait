@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33C7D0511D63EB2000A62B1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C7D0501D63EB2000A62B1A /* main.m */; };
+		33C7D0581D63EB6500A62B1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C7D0571D63EB6500A62B1A /* main.m */; };
+		33C7D05A1D63EB7100A62B1A /* UserInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C7D0591D63EB7100A62B1A /* UserInput.m */; };
+		33C7D05C1D63EB7700A62B1A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C7D05B1D63EB7700A62B1A /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		33C7D04D1D63EB2000A62B1A /* Self Portrait */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Self Portrait"; sourceTree = BUILT_PRODUCTS_DIR; };
-		33C7D0501D63EB2000A62B1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33C7D0571D63EB6500A62B1A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33C7D0591D63EB7100A62B1A /* UserInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInput.m; sourceTree = "<group>"; };
+		33C7D05B1D63EB7700A62B1A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		33C7D05D1D63EB7F00A62B1A /* UserInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInput.h; sourceTree = "<group>"; };
+		33C7D05E1D63EB8700A62B1A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		33C7D04F1D63EB2000A62B1A /* Self Portrait */ = {
 			isa = PBXGroup;
 			children = (
-				33C7D0501D63EB2000A62B1A /* main.m */,
+				33C7D05E1D63EB8700A62B1A /* Person.h */,
+				33C7D05D1D63EB7F00A62B1A /* UserInput.h */,
+				33C7D05B1D63EB7700A62B1A /* Person.m */,
+				33C7D0591D63EB7100A62B1A /* UserInput.m */,
+				33C7D0571D63EB6500A62B1A /* main.m */,
 			);
 			path = "Self Portrait";
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33C7D0511D63EB2000A62B1A /* main.m in Sources */,
+				33C7D05C1D63EB7700A62B1A /* Person.m in Sources */,
+				33C7D0581D63EB6500A62B1A /* main.m in Sources */,
+				33C7D05A1D63EB7100A62B1A /* UserInput.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +258,7 @@
 				33C7D0561D63EB2000A62B1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
